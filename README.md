@@ -1,40 +1,12 @@
-# 🧠 TrendAnalyzer AI
+# React + Vite
 
-**Discover Live AI Trends Instantly — No Signup. No Noise. Just Trends That Matter.**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-TrendAnalyzer AI tracks and surfaces **real-time AI discussions** and **technical releases** from the most reliable sources on the internet: **Reddit** and **GitHub**. Whether you’re building, investing, or simply curious, this platform keeps you ahead of what’s happening *now* in the world of AI.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Features
+## Expanding the ESLint configuration
 
-- 🔍 **Real-Time Trend Tracking**: From LLM updates to startup launches.
-- 🗂️ **Categorized by Topic**: LLMs, Tools, Agents, Startups, and more.
-- ⚡ **Source-Rich Cards**: See trending topics with links to original GitHub repos or Reddit threads.
-- 🖥️ **Fully Responsive UI**: Built to look great on both desktop and mobile.
-- 🔌 **Powered by Bright Data MCP**: We extract fresh content using their market-leading data collection tools.
-
----
-
-## 📦 Tech Stack
-
-- **Frontend**: [Framer](https://framer.com) (Neon dark UI)
-- **Backend/Data**: Supabase , Bright Data MCP
-- **Languages**: JavaScript, Markdown, Python (for scraping pipeline)
-
----
-
-## 📚 Sources We Track
-
-| 🔥 Reddit | 🧠 GitHub |
-|----------|-----------|
-| Real-time discussions in AI subreddits | Codebase changes in trending repos |
-| Signals from indie hackers to AI researchers | Actual updates, not just opinions |
-
----
-
----
-
-## 🛠️ Local Development
-
-Coming soon: Full Supabase + scraping pipeline setup. Until then, you can test the static site version via Framer.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
